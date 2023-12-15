@@ -1,4 +1,4 @@
-# Create CI-CD Pipeline for to setup shaktiman web application 
+# Create CI-CD Pipeline for to setup Shaktiman web application 
 
 - setup jenkins machine (t2.medium)
  - setup webhook integration for automatic build triggers with SCM 
@@ -21,7 +21,7 @@
 2. To pass environment variables 
 
         environment {
-            APP_NAME = "shaktiman"
+            APP_NAME = "Shaktiman"
             RELEASE = "1.0.0"
             DOCKER_USER = "yaswa2706"
             DOCKER_PASS = 'dockerhub'
@@ -42,7 +42,7 @@
 
         stage ("Downlod Code") {
             steps {
-                git 'https://github.com/Yesh9676/shaktiman.git'
+                git 'https://github.com/Yesh9676/Shaktiman.git'
             }
         }
 

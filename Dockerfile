@@ -5,11 +5,11 @@ FROM tomee:latest
 RUN apt-get update && apt-get install -y mysql-client
 
 # Copy your Java application files to TomEE's webapps directory
-COPY ./webapp/target/webapp.war /usr/local/tomee/webapps/shaktiman
+COPY ./webapp/target/webapp.war /usr/local/tomee/webapps/Shaktiman
 
 # Environment variables for MySQL
-ENV MYSQL_ROOT_PASSWORD=shaktiman
-ENV MYSQL_DATABASE=shaktiman123
+ENV MYSQL_ROOT_PASSWORD=Shaktiman
+ENV MYSQL_DATABASE=Shaktiman123
 ENV MYSQL_USER=ben10
 ENV MYSQL_PASSWORD=ben1020
 

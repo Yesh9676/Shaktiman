@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        APP_NAME = "shaktiman"
+        APP_NAME = "Shaktiman"
         RELEASE = "1.0.0"
         DOCKER_USER = "yaswa2706"
         DOCKER_PASS = 'dockerhub'
@@ -16,7 +16,7 @@ pipeline {
         }
         stage ("Downlod Code") {
             steps {
-                git 'https://github.com/Yesh9676/shaktiman.git'
+                git 'https://github.com/Yesh9676/Shaktiman.git'
             }
         }
         stage ("Build Code") {
