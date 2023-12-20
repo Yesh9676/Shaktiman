@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        APP_NAME = "Shaktiman"
+        APP_NAME = "shaktiman"
         RELEASE = "1.0.0"
         DOCKER_USER = "yaswa2706"
         DOCKER_PASS = 'dockerhub'
