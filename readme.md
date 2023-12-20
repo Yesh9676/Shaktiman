@@ -79,3 +79,5 @@
             }
 
 > After Complet above step Image will be uploaded into Dockerhub
+
+![Alt text](images/image-1.png)
